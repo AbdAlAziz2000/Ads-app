@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق إعلان</string>
+    <string name="introduce_app_text">تطبيق المنصة الأولى في اليمن لنشر اعلاناتك</string>
+    <string name="login_as_visitor_text">دخول كزائر</string>
+    <string name="login_to_my_account">الدخول إلي حسابي</string>
+</resources>
