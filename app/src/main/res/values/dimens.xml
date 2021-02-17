@@ -5,4 +5,7 @@
     <dimen name="d16dp">16dp</dimen>
     <dimen name="f16sp">16sp</dimen>
     <dimen name="d50dp">50dp</dimen>
+    <dimen name="d20dp">20dp</dimen>
+    <dimen name="d6dp">6dp</dimen>
+    <dimen name="d35dp">35dp</dimen>
 </resources>

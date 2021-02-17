@@ -3,4 +3,9 @@
     <string name="introduce_app_text">App ads of the first platform in Yemen for the publication of your ads</string>
     <string name="login_as_visitor_text">login as visitor</string>
     <string name="login_to_my_account">login to my account</string>
+    <string name="login">Login</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">password</string>
+    <string name="create_account">create account</string>
+    <string name="required">Required*</string>
 </resources>
