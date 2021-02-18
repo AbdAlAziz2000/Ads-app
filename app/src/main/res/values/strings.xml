@@ -8,4 +8,10 @@
     <string name="password_text">password</string>
     <string name="create_account">create account</string>
     <string name="required">Required*</string>
+    <string name="contact_us">contact us</string>
+    <string name="your_name_text">Your name</string>
+    <string name="subject_text">Subject (optional)</string>
+    <string name="submit_text">Submit</string>
+    <string name="letter_text">letter</string>
+    <string name="back_text">back</string>
 </resources>

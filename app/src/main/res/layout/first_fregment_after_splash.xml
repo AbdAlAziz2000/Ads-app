@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/background_layout" />
+    <include layout="@layout/static_background_layout" />
 
-    <include layout="@layout/brand_layout" />
+    <include layout="@layout/static_brand_layout" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/appCompatImageView2"

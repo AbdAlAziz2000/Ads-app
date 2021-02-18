@@ -9,4 +9,10 @@
     <string name="password_text">كلمة السر</string>
     <string name="create_account">إنشاء حساب</string>
     <string name="required">مطلوب*</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="your_name_text">اسمك</string>
+    <string name="subject_text">الموضوع (اختياري)</string>
+    <string name="submit_text">إرسال</string>
+    <string name="letter_text">الرسالة</string>
+    <string name="back_text">رجوع</string>
 </resources>
