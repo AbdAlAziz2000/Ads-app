@@ -12,4 +12,5 @@
     <color name="my_black_color">#141414</color>
     <color name="my_grey_color">#707070</color>
     <color name="my_red_color">#ea1e37</color>
+    <color name="transparent_white">#B3FFFFFF</color>
 </resources>

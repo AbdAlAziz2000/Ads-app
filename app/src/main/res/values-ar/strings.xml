@@ -15,4 +15,15 @@
     <string name="submit_text">إرسال</string>
     <string name="letter_text">الرسالة</string>
     <string name="back_text">رجوع</string>
+    <string name="post_ads_text">نشر إعلان</string>
+    <string name="phone_number_text">رقم الهاتف</string>
+    <string name="whatsup_phone_number_text">رقم واتساب</string>
+    <string name="allow_show_email_text">إظهار البريد الاكتروني على صفحة الاعلان</string>
+    <string name="image_ads_text">صور الاعلان</string>
+    <string name="catgory_text">التصنيفات</string>
+    <string name="location_text">العنوان</string>
+    <string name="price_text">السعر</string>
+    <string name="real_yamen_text">ريال يمني</string>
+    <string name="website_post_text">موقع الاعلان</string>
+    <string name="description_text">الوصف</string>
 </resources>

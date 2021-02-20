@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
 
-        setContentView(R.layout.login_fragment);
+        setContentView(R.layout.post_ads_fragment);
 
 
     }

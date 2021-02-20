@@ -14,4 +14,15 @@
     <string name="submit_text">Submit</string>
     <string name="letter_text">letter</string>
     <string name="back_text">back</string>
+    <string name="post_ads_text">post ads</string>
+    <string name="phone_number_text">phone number</string>
+    <string name="whatsup_phone_number_text">whatsup number</string>
+    <string name="allow_show_email_text">show email on ads page</string>
+    <string name="image_ads_text">photo ads</string>
+    <string name="catgory_text">catgory</string>
+    <string name="location_text">location</string>
+    <string name="price_text">price</string>
+    <string name="real_yamen_text">YER</string>
+    <string name="website_post_text">website</string>
+    <string name="description_text">description</string>
 </resources>
