@@ -25,4 +25,7 @@
     <string name="real_yamen_text">YER</string>
     <string name="website_post_text">website</string>
     <string name="description_text">description</string>
+    <string name="home_text" translatable="false">Home</string>
+    <string name="profile_text" translatable="false">Profile</string>
+    <string name="fab_button" translatable="false">fab</string>
 </resources>
