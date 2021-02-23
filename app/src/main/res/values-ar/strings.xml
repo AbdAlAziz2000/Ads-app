@@ -28,4 +28,8 @@
     <string name="description_text">الوصف</string>
     <string name="main_page_text">الصفحة الرئيسة</string>
     <string name="search_about_ads_text">ابحث عن اعلان</string>
+    <string name="time_text">منذ شهر</string>
+    <string name="ads_headline_text">مجمعات خشبية للأطفال والرحلات عنا بس</string>
+    <string name="price_text_with_suffix">ر.ل %.3f</string>
+    <string name="price_text_with_suffix_example"> ر.ل 300.000</string>
 </resources>

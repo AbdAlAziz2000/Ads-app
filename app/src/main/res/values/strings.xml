@@ -32,4 +32,8 @@
     <string name="filter_text" translatable="false">filter</string>
     <string name="main_page_text">main page</string>
     <string name="search_about_ads_text">search about ads</string>
+    <string name="time_text">since month</string>
+    <string name="ads_headline_text">مجمعات خشبية للأطفال والرحلات عنا بس</string>
+    <string name="price_text_with_suffix">r.l %.3f</string>
+    <string name="price_text_with_suffix_example"> ر.ل 300.000</string>
 </resources>

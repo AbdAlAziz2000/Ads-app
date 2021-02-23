@@ -13,6 +13,7 @@
     <merge>
 
         <androidx.appcompat.widget.Toolbar
+            style="@style/AppTheme.Toolbar.ActionButton"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             app:menu="@menu/menu_main_menu">
