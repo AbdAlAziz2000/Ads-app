@@ -1,10 +1,10 @@
 package com.abdalazizabdallah.adsapp;
 
 import android.content.res.Configuration;
-import android.os.Build;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
     FloatingActionButton floatingActionButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +30,13 @@ public class MainActivity extends AppCompatActivity {
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
 
-        setContentView(R.layout.post_ads_fragment);
+        setContentView(R.layout.activity_main);
 
-        bottomNavigationView = findViewById(R.id.bottomNavigationView);
-        bottomNavigationView.setBackground(null);
-
-        floatingActionButton = findViewById(R.id.fab_button);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            floatingActionButton.setBackground(getResources().getDrawable(R.drawable.bg_layer_button, null));
-        }
+        DataBindingUtil.setContentView(this, R.layout.post_ads_fragment);
+//
+//
+//        bottomNavigationView = findViewById(R.id.bottomNavigationView);
+//       bottomNavigationView.setBackground(null);
 
 
     }

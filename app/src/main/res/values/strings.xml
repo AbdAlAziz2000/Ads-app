@@ -28,4 +28,8 @@
     <string name="home_text" translatable="false">Home</string>
     <string name="profile_text" translatable="false">Profile</string>
     <string name="fab_button" translatable="false">fab</string>
+    <string name="notifications_text" translatable="false">notifications</string>
+    <string name="filter_text" translatable="false">filter</string>
+    <string name="main_page_text">main page</string>
+    <string name="search_about_ads_text">search about ads</string>
 </resources>

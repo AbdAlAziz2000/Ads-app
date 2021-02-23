@@ -26,4 +26,6 @@
     <string name="real_yamen_text">ريال يمني</string>
     <string name="website_post_text">موقع الاعلان</string>
     <string name="description_text">الوصف</string>
+    <string name="main_page_text">الصفحة الرئيسة</string>
+    <string name="search_about_ads_text">ابحث عن اعلان</string>
 </resources>
