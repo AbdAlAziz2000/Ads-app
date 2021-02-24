@@ -13,4 +13,5 @@
     <dimen name="d24dp">24dp</dimen>
     <dimen name="f18sp">18dp</dimen>
     <dimen name="f35sp">35sp</dimen>
+    <dimen name="d12dp">12dp</dimen>
 </resources>

@@ -16,11 +16,11 @@ import java.util.List;
 
 public class AdsListRecycleViewAdapter extends RecyclerView.Adapter<AdsListRecycleViewAdapter.AdsListViewHolder> {
 
-    private List<Ads> photoList;
+    private List<Ads> adsList;
 
 
-    public AdsListRecycleViewAdapter(List<Ads> photoList) {
-        this.photoList = photoList;
+    public AdsListRecycleViewAdapter(List<Ads> adsList) {
+        this.adsList = adsList;
     }
 
     @NonNull
@@ -32,12 +32,12 @@ public class AdsListRecycleViewAdapter extends RecyclerView.Adapter<AdsListRecyc
 
     @Override
     public void onBindViewHolder(@NonNull AdsListViewHolder holder, int position) {
-        holder.bind(photoList.get(position));
+        holder.bind(adsList.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return photoList.size();
+        return adsList.size();
     }
 
 
@@ -57,16 +57,16 @@ public class AdsListRecycleViewAdapter extends RecyclerView.Adapter<AdsListRecyc
         }
 
         @SuppressLint("UseCompatLoadingForDrawables")
-        public void bind(Ads photo) {
+        public void bind(Ads ads) {
             //TODO : bind item with view
 
             Glide.with(imageView)
-                    .load(imageView.getContext().getResources().getDrawable(Integer.parseInt(photo.getPhotoPath())))
+                    .load(imageView.getContext().getResources().getDrawable(Integer.parseInt(ads.getPhotoPath())))
                     .into(imageView);
 
-            textViewTime.setText(photo.getTime());
-            textViewPrice.setText(photo.getPrice());
-            textViewTitle.setText(photo.getTitle());
+            textViewTime.setText(ads.getTime());
+            textViewPrice.setText(ads.getPrice());
+            textViewTitle.setText(ads.getTitle());
         }
     }
 }

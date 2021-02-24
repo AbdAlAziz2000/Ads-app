@@ -37,6 +37,8 @@
     <string name="price_text_with_suffix">%.3f r.l</string>
     <string name="price_text_with_suffix_example"> ر.ل 300.000</string>
     <string name="my_profile_text">My profile</string>
-    <string name="opps_text">opps ...</string>
+    <string name="opps_text">opps …</string>
     <string name="description_unregister_user">يجب تسجيل الدخول الى الحساب او انشاء حساب لرؤية  ملفك الشخصي، سعداء بتواجدك معنا</string>
+    <string name="title_item_notification">عنوان الاشعار سيكون هنا باي نص كان</string>
+    <string name="body_item_notification">"هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. "</string>
 </resources>
