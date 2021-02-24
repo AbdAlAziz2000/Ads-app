@@ -21,7 +21,7 @@
             app:backgroundTint="@color/my_light_grey_color"
             app:contentInsetStart="0dp"
             app:fabCradleRoundedCornerRadius="@dimen/d20dp"
-            app:fabCradleVerticalOffset="@dimen/d5dp"
+            app:fabCradleVerticalOffset="@dimen/d10dp"
             app:hideOnScroll="true"
             app:layout_behavior="com.google.android.material.bottomappbar.BottomAppBar$Behavior"
             app:layout_scrollFlags="scroll|enterAlways"
@@ -47,6 +47,7 @@
             app:layout_anchorGravity="center"
             app:layout_scrollFlags="enterAlways"
             app:maxImageSize="@dimen/d24dp"
+            app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
             app:srcCompat="@drawable/img_add"
             app:tint="@color/white" />
 

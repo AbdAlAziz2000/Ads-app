@@ -309,7 +309,7 @@
                     style="@style/MyStylePrimaryButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/d70dp"
+                    android:layout_marginBottom="@dimen/d20dp"
                     android:text="@string/submit_text" />
 
             </LinearLayout>

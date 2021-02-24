@@ -5,12 +5,10 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -34,33 +32,34 @@ public class MainActivity extends AppCompatActivity {
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
 
-        DataBindingUtil.setContentView(this, R.layout.main_fragement);
-        Ads ads = new Ads(getString(R.string.time_text), getString(R.string.ads_headline_text), String.valueOf(R.drawable.ipad2), getString(R.string.price_text_with_suffix, 300.001));
-        adsList = new ArrayList<>();
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-        adsList.add(ads);
-
-
-        RecyclerView recyclerView = findViewById(R.id.main_fragment_recycleView);
-        recyclerView.setAdapter(new AdsListRecycleViewAdapter(adsList));
+        DataBindingUtil.setContentView(this, R.layout.unregister_profile_fragment);
+//        Ads ads = new Ads(getString(R.string.time_text), getString(R.string.ads_headline_text),
+//                String.valueOf(R.drawable.ipad2), getString(R.string.price_text_with_suffix, 300.001));
+//        adsList = new ArrayList<>();
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//        adsList.add(ads);
+//
+//
+//        RecyclerView recyclerView = findViewById(R.id.main_fragment_recycleView);
+//        recyclerView.setAdapter(new AdsListRecycleViewAdapter(adsList));
 
 //
 //
@@ -68,5 +67,16 @@ public class MainActivity extends AppCompatActivity {
 //       bottomNavigationView.setBackground(null);
 
 
+//        ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT,ItemTouchHelper.RIGHT) {
+//            @Override
+//            public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
+//                return false;
+//            }
+//
+//            @Override
+//            public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+//
+//            }
+//        }
     }
 }

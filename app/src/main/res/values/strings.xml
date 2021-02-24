@@ -34,6 +34,9 @@
     <string name="search_about_ads_text">search about ads</string>
     <string name="time_text">since month</string>
     <string name="ads_headline_text">مجمعات خشبية للأطفال والرحلات عنا بس</string>
-    <string name="price_text_with_suffix">r.l %.3f</string>
+    <string name="price_text_with_suffix">%.3f r.l</string>
     <string name="price_text_with_suffix_example"> ر.ل 300.000</string>
+    <string name="my_profile_text">My profile</string>
+    <string name="opps_text">opps ...</string>
+    <string name="description_unregister_user">يجب تسجيل الدخول الى الحساب او انشاء حساب لرؤية  ملفك الشخصي، سعداء بتواجدك معنا</string>
 </resources>

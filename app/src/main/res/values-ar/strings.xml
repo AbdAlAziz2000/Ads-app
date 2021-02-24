@@ -32,4 +32,7 @@
     <string name="ads_headline_text">مجمعات خشبية للأطفال والرحلات عنا بس</string>
     <string name="price_text_with_suffix">ر.ل %.3f</string>
     <string name="price_text_with_suffix_example"> ر.ل 300.000</string>
+    <string name="my_profile_text">ملفي الشخصي</string>
+    <string name="opps_text">أووبس ...</string>
+    <string name="description_unregister_user">يجب تسجيل الدخول الى الحساب او انشاء حساب لرؤية  ملفك الشخصي، سعداء بتواجدك معنا</string>
 </resources>
