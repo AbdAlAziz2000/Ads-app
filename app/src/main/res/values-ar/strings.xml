@@ -38,4 +38,13 @@
     <string name="notifications_text">التنبيهات</string>
     <string name="title_item_notification">عنوان الاشعار سيكون هنا باي نص كان</string>
     <string name="body_item_notification">"هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. "</string>
+    <string name="country_text">الدولة</string>
+    <string name="region_text">المنطقة</string>
+    <string name="city_text">المدينة</string>
+    <string name="update_data_account_text">تحديث بيانات الحساب</string>
+    <string name="update_password_account_text">تحديث كلمة المرور</string>
+    <string name="current_password_text">كلمة المرور الحالية</string>
+    <string name="new_password_text">كلمة المرور الجديدة</string>
+    <string name="confirm_new_password_text">إعادة كتابة كلمة المرور</string>
+    <string name="update_ads_text">تحديث الإعلان</string>
 </resources>

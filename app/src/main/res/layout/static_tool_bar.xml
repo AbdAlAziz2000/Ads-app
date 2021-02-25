@@ -28,7 +28,7 @@
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/static_tool_bar_back_text"
                     android:layout_width="wrap_content"
-                    android:layout_margin="@dimen/d10dp"
+                    android:layout_margin="@dimen/d5dp"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
@@ -36,6 +36,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:drawableStart="@drawable/img_arrow_back"
                     android:text="@string/back_text"
+                    android:gravity="top"
                     android:textColor="@color/white"
                     android:clickable="true"
                     android:focusable="true"

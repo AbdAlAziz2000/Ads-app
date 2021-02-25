@@ -55,5 +55,10 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="MyStyleTextInputLayoutDropdown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:textDirection">locale</item>
+        <item name="android:layout_marginBottom">@dimen/d20dp</item>
+
+    </style>
 
 </resources>

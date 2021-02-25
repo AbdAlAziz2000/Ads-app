@@ -11,7 +11,7 @@
         android:theme="@style/Theme.AdsApp">
         <activity
             android:name=".MainActivity"
-            android:windowSoftInputMode="stateVisible|adjustResize">
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

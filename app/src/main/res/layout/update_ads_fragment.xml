@@ -13,8 +13,8 @@
             android:layout_height="wrap_content">
 
             <include
-                layout="@layout/static_app_bar"
-                bind:headerText="@{@string/post_ads_text}" />
+                layout="@layout/static_tool_bar"
+                bind:headerText="@{@string/update_ads_text}" />
 
         </com.google.android.material.appbar.AppBarLayout>
 
@@ -38,7 +38,7 @@
                     style="@style/MyStyleTextViewHeadline"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/post_ads_text" />
+                    android:text="@string/update_ads_text" />
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/appCompatImageView3"
@@ -300,10 +300,6 @@
 
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
-
-        <include
-            layout="@layout/static_bottom_app_bar_and_fab"
-            bind:nullBackground="@{null}" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

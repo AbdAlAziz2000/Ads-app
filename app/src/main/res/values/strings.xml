@@ -41,4 +41,14 @@
     <string name="description_unregister_user">يجب تسجيل الدخول الى الحساب او انشاء حساب لرؤية  ملفك الشخصي، سعداء بتواجدك معنا</string>
     <string name="title_item_notification">عنوان الاشعار سيكون هنا باي نص كان</string>
     <string name="body_item_notification">"هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. "</string>
+    <string name="country_text">Country</string>
+    <string name="region_text">Region</string>
+    <string name="city_text">City</string>
+    <string name="update_data_account_text">update data account</string>
+    <string name="update_password_account_text">change password account</string>
+    <string name="current_password_text">current password</string>
+    <string name="new_password_text">New password</string>
+    <string name="confirm_new_password_text">Confrim new password</string>
+    <string name="update_ads_text">Update ads</string>
+
 </resources>
