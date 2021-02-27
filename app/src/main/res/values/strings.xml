@@ -50,5 +50,6 @@
     <string name="new_password_text">New password</string>
     <string name="confirm_new_password_text">Confrim new password</string>
     <string name="update_ads_text">Update ads</string>
+    <string name="my_ads_text">My ads</string>
 
 </resources>

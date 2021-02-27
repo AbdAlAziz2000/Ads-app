@@ -1,4 +1,4 @@
-package com.abdalazizabdallah.adsapp;
+package com.abdalazizabdallah.adsapp.model;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.abdalazizabdallah.adsapp.R;
 import com.bumptech.glide.Glide;
 import com.google.android.material.textview.MaterialTextView;
 

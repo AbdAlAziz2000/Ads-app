@@ -1,4 +1,4 @@
-package com.abdalazizabdallah.adsapp;
+package com.abdalazizabdallah.adsapp.view;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.widget.AutoCompleteTextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.abdalazizabdallah.adsapp.R;
+import com.abdalazizabdallah.adsapp.model.Ads;
+import com.abdalazizabdallah.adsapp.model.MyNotification;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -21,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     List<MyNotification> myNotificationList;
 
     AutoCompleteTextView autoCompleteTextView;
+    private List<Ads> adsList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,14 +38,14 @@ public class MainActivity extends AppCompatActivity {
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
 
-        DataBindingUtil.setContentView(this, R.layout.update_ads_fragment);
+        DataBindingUtil.setContentView(this, R.layout.fragment_my_ads);
 //
 //        String [] listOption = {"Option 1", "Option 2", "Option 3", "Option 4"};
 //        autoCompleteTextView = findViewById(R.id.post_ads_fragment_autoCompleteTextView);
 //        autoCompleteTextView.setAdapter(new ArrayAdapter<>(this, R.layout.auto_item,listOption));
 
 //        Ads ads = new Ads(getString(R.string.time_text), getString(R.string.ads_headline_text),
-//                String.valueOf(R.drawable.ipad2), getString(R.string.price_text_with_suffix, 300.001));
+//                String.valueOf(R.drawable.house), getString(R.string.price_text_with_suffix, 300.001));
 //        adsList = new ArrayList<>();
 //        adsList.add(ads);
 //        adsList.add(ads);
@@ -63,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
 //        adsList.add(ads);
 //        adsList.add(ads);
 //        adsList.add(ads);
+//
+//        RecyclerView recyclerView = findViewById(R.id.my_ads_fragment_recycleView);
+//        recyclerView.setAdapter(new MyAdsRecycleViewAdapter(getApplication(),adsList));
+
+//
 //
 //
 

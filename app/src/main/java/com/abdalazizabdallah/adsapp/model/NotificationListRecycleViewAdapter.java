@@ -1,4 +1,4 @@
-package com.abdalazizabdallah.adsapp;
+package com.abdalazizabdallah.adsapp.model;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.abdalazizabdallah.adsapp.R;
 import com.google.android.material.textview.MaterialTextView;
 
 import java.util.List;

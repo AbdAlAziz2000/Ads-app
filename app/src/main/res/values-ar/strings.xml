@@ -47,4 +47,6 @@
     <string name="new_password_text">كلمة المرور الجديدة</string>
     <string name="confirm_new_password_text">إعادة كتابة كلمة المرور</string>
     <string name="update_ads_text">تحديث الإعلان</string>
+    <string name="my_ads_text">إعلاناتي</string>
+
 </resources>

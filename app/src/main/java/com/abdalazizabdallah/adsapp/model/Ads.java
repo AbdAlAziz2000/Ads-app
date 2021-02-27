@@ -1,4 +1,4 @@
-package com.abdalazizabdallah.adsapp;
+package com.abdalazizabdallah.adsapp.model;
 
 public class Ads {
 
