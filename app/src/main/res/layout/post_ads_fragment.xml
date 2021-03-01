@@ -67,7 +67,7 @@
                     style="@style/MyStyleTextInputLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/phone_number_text"
+                    android:hint="@string/telephone_number_text"
                     app:startIconDrawable="@drawable/img_mobile"
                     app:startIconTint="@color/my_red_color">
 

@@ -9,6 +9,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.appcompat.widget.AppCompatImageView;
+import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.abdalazizabdallah.adsapp.R;
@@ -86,7 +87,7 @@ public class MyAdsRecycleViewAdapter extends RecyclerView.Adapter<MyAdsRecycleVi
             //TODO : bind item with view
 
             Glide.with(imageView)
-                    .load(imageView.getContext().getResources().getDrawable(Integer.parseInt(ads.getPhotoPath())))
+                    .load(ResourcesCompat.getDrawable(imageView.getContext().getResources(), Integer.parseInt(ads.getPhotoPath()), null))
                     .into(imageView);
 
             textViewTime.setText(ads.getTime());

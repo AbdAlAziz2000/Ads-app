@@ -11,7 +11,7 @@
     <dimen name="d10dp">10dp</dimen>
     <dimen name="d5dp">5dp</dimen>
     <dimen name="d24dp">24dp</dimen>
-    <dimen name="f18sp">18dp</dimen>
+    <dimen name="f18sp">18sp</dimen>
     <dimen name="f35sp">35sp</dimen>
     <dimen name="d12dp">12dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->

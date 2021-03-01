@@ -16,7 +16,7 @@
     <string name="letter_text">الرسالة</string>
     <string name="back_text">رجوع</string>
     <string name="post_ads_text">نشر إعلان</string>
-    <string name="phone_number_text">رقم الهاتف</string>
+    <string name="telephone_number_text">رقم الهاتف</string>
     <string name="whatsup_phone_number_text">رقم واتساب</string>
     <string name="allow_show_email_text">إظهار البريد الاكتروني على صفحة الاعلان</string>
     <string name="image_ads_text">صور الاعلان</string>
@@ -48,5 +48,21 @@
     <string name="confirm_new_password_text">إعادة كتابة كلمة المرور</string>
     <string name="update_ads_text">تحديث الإعلان</string>
     <string name="my_ads_text">إعلاناتي</string>
+    <string name="modify_text">تعديل</string>
+    <string name="advertiser_name_text">اسم المعلن</string>
+    <string name="demo_advertiser_name_text">سالم سي السالم الشيخ سالم</string>
+    <string name="last_activity_text">آخر تواجد</string>
+    <string name="phone_number_text">رقم الموبايل</string>
+    <string name="demo_phone_text">009991112223334</string>
+    <string name="demo_telephone_text">08012345645</string>
+    <string name="demo_whatsapp_text">009991112223334</string>
+    <string name="demo_loaction_text">اليمن - العاصمة صنعاء - حي السادة - شارع الثورة</string>
+    <string name="demo_website_text">EXAMPLE@EXAMPLE.COM</string>
+    <string name="website_text">الموقع الالكتروني</string>
+    <string name="demo_bio_text">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى.</string>
+    <string name="bio_text">نبذة</string>
+    <string name="latest_ads_text">أحدث الإعلانات</string>
+    <string name="delete_account_text">حذف الحساب</string>
+    <string name="advertiser_profile_text">ملف المعلن</string>
 
 </resources>

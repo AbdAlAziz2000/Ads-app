@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
 
-        DataBindingUtil.setContentView(this, R.layout.fragment_my_ads);
+        DataBindingUtil.setContentView(this, R.layout.fragment_advertiser_profile);
 //
 //        String [] listOption = {"Option 1", "Option 2", "Option 3", "Option 4"};
 //        autoCompleteTextView = findViewById(R.id.post_ads_fragment_autoCompleteTextView);
